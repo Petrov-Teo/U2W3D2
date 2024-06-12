@@ -15,11 +15,11 @@ class Name {
 const card = (obg) => {
   const div = document.createElement("div");
   const p = document.createElement("p");
-  p.innerText = names;
+  p.innerText = nameStarSave2;
   div.appendChild(p);
   div.classList.add("col");
 
-  document.body.appendChild(div);
+  cardRow.appendChild.div;
 };
 
 let names = [];
